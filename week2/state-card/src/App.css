@@ -1,0 +1,22 @@
+.state-card {
+  color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.state-card:hover {
+  transform: translateY(-5px);
+}
+
+.landmark {
+  margin-top: 10px;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 6px;
+}

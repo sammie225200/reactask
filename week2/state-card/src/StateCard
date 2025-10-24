@@ -1,0 +1,30 @@
+import React from 'react';
+
+
+function StateCard({ state, capital, region, population, children }) {
+//   const regionColors = {
+//     North: '#8B4513',
+//     South: '#008751',
+//     East: '#FFD700',
+//     West: '#4169E1',
+//   };
+
+//   const bgColor = regionColors[region] || '#ccc';
+
+  return (
+    // <div className="state-card" style={{ backgroundColor: bgColor }}>
+    //   <h2>{state}State</h2>
+    //   <p><strong>Capital:</strong> {capital}</p>
+    //   <p><strong>Region:</strong> {region}</p>
+    //   <p><strong>Population:</strong> {population}</p>
+
+    //   {children && (
+    //     <div className="landmark">
+    //       <strong>Famous Landmark:</strong> {children}
+    //     </div>
+    //   )}
+    </div>
+  );
+}
+
+export default StateCard;
